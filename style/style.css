@@ -1,0 +1,53 @@
+
+:root{
+    --clr-dark:#020617 ;
+    --clr-light:#f1f5f9 ;
+    --clr-slate:#64748b ;
+    --clr-pink: #f9a8d4;
+    --clr-sky: #38bdf8;
+    --clr-rose:#fb7185;
+
+
+    /* size */
+    --size-xs: .75rem;
+    --size-sm: .875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-4xl: 2.25rem;
+    --size-6xl:3.75rem ;
+    --size-8xl:6rem ;
+}
+*{
+    margin: 0;
+    line-height: calc(1em + .5rem);
+}
+html{
+    scroll-behavior: smooth ;
+}
+body {
+    font-family: 'Telma', cursive;
+    font-family: 'General Sans', sans-serif;
+    background-color:#fdaace;
+    color: var(--clr-light);
+    overflow-x: hidden;
+    /*background: var(--clr-pink); /* For browsers that do not support gradients */
+    /*background: -webkit-radial-gradient(circle, var(--clr-pink), white, var(--clr-rose)); /* Safari */
+    /*background: -o-radial-gradient(circle, var(--clr-pink), white, var(--clr-rose)); /* Opera 11.6 to 12.0 */
+    /*background: -moz-radial-gradient(circle, var(--clr-pink), white, var(--clr-rose)); /* Firefox 3.6 to 15 */
+    /*background: radial-gradient(circle, var(--clr-pink), white, green); /* Standard syntax */
+}
+img,picture ,video ,canvas,svg{
+    /* display: block; */
+    max-width: 100%;
+    user-select: none;
+}
+button{
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer ;
+    color: inherit;
+}
